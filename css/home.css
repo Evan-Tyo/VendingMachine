@@ -1,0 +1,156 @@
+#gridButtonContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+}
+
+#gridButtonContainer > div {
+    border: 2px solid black;
+}
+
+#gridButtonContainer > div:hover {
+    background-color: lightblue;
+}
+
+#gridInterfaceContainer {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#displayTotalMoneyIn {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
+}
+
+#gridMoneyButtonContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+#addDollarButton {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#addDollarButton:hover {
+    background-color: lightblue;
+}
+
+#addQuarterButton {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#addQuarterButton:hover {
+    background-color: lightblue;
+}
+
+#addDimeButton {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#addDimeButton:hover {
+    background-color: lightblue;
+}
+
+#addNickelButton {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#addNickelButton:hover {
+    background-color: lightblue;
+}
+
+#moneyButtonRowOne {
+    margin-bottom: 10px;
+}
+
+#moneyButtonRowTwo {
+    margin-bottom: 10px;
+}
+
+#displayMessages {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
+}
+
+#displayItemId {
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: ghostwhite;
+}
+
+#displayItem {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+#makePurchaseButton {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#makePurchaseButton:hover {
+    background-color: lightblue;
+}
+
+#displayChange {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
+}
+
+#changeReturnButton {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#changeReturnButton:hover {
+    background-color: lightblue;
+}
+
+.buttonIdCustomClass {
+    margin-top: 5px;
+    margin-left: 1px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.buttonNameCustomClass {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.buttonPriceCustomClass {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.buttonQuantityCustomClass {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
