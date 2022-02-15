@@ -8,7 +8,7 @@ function loadButtons() {
 
     $.ajax({
         type: 'GET',
-        url: 'https://vending.us-east-1.elasticbeanstalk.com/items',
+        url: 'http://vending.us-east-1.elasticbeanstalk.com/items',
         success: function (itemArray) {
             $.each(itemArray, function (index, item) {
                 var id = item.id;
@@ -72,7 +72,7 @@ function makePurchase() {
 
     $.ajax({
         type: 'POST',
-        url: 'https://vending.us-east-1.elasticbeanstalk.com/money/' + total + '/item/' + id,
+        url: 'http://vending.us-east-1.elasticbeanstalk.com/money/' + total + '/item/' + id,
         success: function (response) {
             $('#displayMessages').val('Thank You!!!');
             displayChangeAfterPurchase(response);
