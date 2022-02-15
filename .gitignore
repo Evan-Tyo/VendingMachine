@@ -224,8 +224,8 @@ project.lock.json
 *.Specs_*.html
 
 # Heroku Deployment
-composer.json
-index.php
+/composer.json
+/index.php
 
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
