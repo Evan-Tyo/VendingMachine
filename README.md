@@ -1,5 +1,7 @@
 # VendingMachine
 
+View it [live](https://vending-machine.herokuapp.com/)!
+
 ### A user interface for a virtual vending machine
 **Description**:
 - This project creates a User Interface (UI) for a virtual vending machine
@@ -18,4 +20,4 @@
 
 **How to Run**:
 - Download ZIP file containing repository project
-- Open home.html file with a chosen web browser
+- Open home.html file
